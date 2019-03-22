@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="ssh" namespace="/" extends="struts-default">
+        <action name="save" class="com.company.action.UserAction" method="save">
+            <result name="success" type="dispatcher">/WEB-INF/views/success.jsp</result>
+            <result name="error" type="dispatcher">/WEB-INF/views/error.jsp</result>
+        </action>
+        <action name="findbyname" class="com.company.action.UserAction" method="findByName">
+            <result name="success" type="dispatcher">/WEB-INF/views/success.jsp</result>
+            <result name="error" type="dispatcher">/WEB-INF/views/error.jsp</result>
+        </action>
+    </package>
+</struts>

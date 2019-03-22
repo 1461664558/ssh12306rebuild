@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.company.dao.entity.Ticket" table="ticket" schema="12306">
+        <id name="tkid" column="tkid"/>
+        <property name="tid" column="tid"/>
+        <property name="date" column="date"/>
+        <property name="gnumber" column="gnumber"/>
+        <property name="seatnumber" column="seatnumber"/>
+        <property name="type" column="type"/>
+        <property name="startstation" column="startstation"/>
+        <property name="endstation" column="endstation"/>
+        <property name="price" column="price"/>
+        <property name="name" column="name"/>
+        <property name="utype" column="utype"/>
+        <property name="uidnumber" column="uidnumber"/>
+        <property name="saletype" column="saletype"/>
+        <property name="datailedsales" column="datailedsales"/>
+        <property name="saletime" column="saletime"/>
+        <property name="status" column="status"/>
+        <property name="statusmodifier" column="statusmodifier"/>
+        <property name="modifystation" column="modifystation"/>
+        <property name="modifytime" column="modifytime"/>
+        <property name="creatTime" column="creatTime"/>
+        <property name="updataTime" column="updataTime"/>
+        <property name="creatUser" column="creatUser"/>
+        <property name="updataUser" column="updataUser"/>
+        <property name="deleteTime" column="deleteTime"/>
+        <property name="con1" column="con1"/>
+        <property name="con2" column="con2"/>
+        <property name="con3" column="con3"/>
+        <property name="con4" column="con4"/>
+        <property name="con5" column="con5"/>
+    </class>
+</hibernate-mapping>

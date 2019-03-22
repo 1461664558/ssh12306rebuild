@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.company.dao.entity.Route" table="route" schema="12306">
+        <id name="routeid" column="routeid"/>
+        <property name="tid" column="tid"/>
+        <property name="stationid" column="stationid"/>
+        <property name="stationname" column="stationname"/>
+        <property name="endstation" column="endstation"/>
+        <property name="startstation" column="startstation"/>
+        <property name="mile" column="mile"/>
+        <property name="staytime" column="staytime"/>
+        <property name="last" column="last"/>
+        <property name="creatTime" column="creatTime"/>
+        <property name="updataTime" column="updataTime"/>
+        <property name="creatUser" column="creatUser"/>
+        <property name="updataUser" column="updataUser"/>
+        <property name="deleteTime" column="deleteTime"/>
+        <property name="con1" column="con1"/>
+        <property name="con2" column="con2"/>
+        <property name="con3" column="con3"/>
+        <property name="con4" column="con4"/>
+        <property name="con5" column="con5"/>
+    </class>
+</hibernate-mapping>
